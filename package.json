@@ -1,0 +1,20 @@
+{
+  "name": "bossy-bot",
+  "version": "0.0.1",
+  "description": "Simple Bot that will keep you motivated.",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": "https://github.com/jayeshbhalodia/remote-work-tracker",
+  "keywords": [
+    "Bossy Bot",
+    "Motivation",
+    "Motivation Bot",
+  ],
+  "author": "jayeshbhalodia",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^16.0.8"
+  }
+}
