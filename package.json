@@ -1,20 +1,34 @@
 {
-  "name": "bossy-bot",
-  "version": "0.0.1",
-  "description": "Simple Bot that will keep you motivated.",
-  "main": "main.js",
-  "scripts": {
-    "start": "electron ."
-  },
-  "repository": "https://github.com/jayeshbhalodia/remote-work-tracker",
-  "keywords": [
-    "Bossy Bot",
-    "Motivation",
-    "Motivation Bot",
-  ],
-  "author": "jayeshbhalodia",
-  "license": "MIT",
-  "devDependencies": {
-    "electron": "^16.0.8"
-  }
+    "name": "bossy-bot",
+    "version": "0.0.1",
+    "description": "Simple Bot that will keep you motivated.",
+    "main": "main.js",
+    "repository": "https://github.com/jayeshbhalodia/remote-work-tracker",
+    "keywords": [
+        "Bossy Bot",
+        "Motivation",
+        "Motivation Bot"
+    ],
+    "author": "jayeshbhalodia",
+    "license": "MIT",
+    "scripts": {
+        "dev": "vite",
+        "build": "vite build",
+        "preview": "vite preview",
+        "start": "electron .",
+        "pack": "electron-builder --dir",
+        "pack-linux": "electron-builder --linux=deb"
+    },
+    "dependencies": {
+        "vue": "^3.2.25"
+    },
+    "devDependencies": {
+        "@vitejs/plugin-vue": "^2.0.0",
+        "autoprefixer": "^10.4.2",
+        "electron": "^16.0.8",
+        "electron-builder": "^22.14.5",
+        "postcss": "^8.4.5",
+        "tailwindcss": "^3.0.18",
+        "vite": "^2.7.2"
+    }
 }
