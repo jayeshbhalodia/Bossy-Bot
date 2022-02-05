@@ -1,4 +1,4 @@
-# Bossy-bot
+# Bossy-bot - In progress / not ready for use yet.
 
 Bot that will keep you motivated!
 
@@ -17,3 +17,7 @@ If you are interested to support on this App then contact me : jsbhalodia.dev@gm
 - npm run build
 - npm run pack ( Mac OS)
 - npm run pack-linux ( Ubuntu / Debian )
+
+
+## Author 
+- Jayesh Bhalodia
