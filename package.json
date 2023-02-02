@@ -21,7 +21,7 @@
     },
     "dependencies": {
         "electron-json-storage": "^4.5.0",
-        "vue": "^3.2.25",
+        "vue": "^3.2.47",
         "vue-router": "^4.0.12",
         "vue-tailwind": "^2.5.0"
     },
